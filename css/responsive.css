@@ -1,0 +1,117 @@
+@media screen and (max-width: 1400px){
+    .about_us_body .org_founders .images_wrapper img{width: 100%;}
+}
+
+@media screen and (max-width: 1200px){
+    header.site_header .header_main .site_logo {max-width: 150px;}
+    header.site_header .header_main .right_items input{width: 170px;}
+    header.site_header .header_main .right_items button{width: 42px;}
+    header.site_header .header_main .main_menu ul{padding-inline-start: 10px;}
+    header.site_header .header_main .main_menu ul li:not(:last-child) {margin-right: 22px;}
+    .home_main .main_wrapper .banner .banner_container{max-width: 930px;}
+    .home_main .main_wrapper .banner .banner_container .banner_content h2 {font-size: 24px;line-height: 45px;}
+    .home_main .main_wrapper .banner .banner_container .banner_content p {margin-top: 5px;}   
+    .home_main .main_wrapper .banner .banner_container .banner_content a button{margin-top: 20px;} 
+    .home_main .main_wrapper .quote .inner_container{max-width: 930px;}
+    .home_main .main_wrapper .quote h3{font-size: 34px;}
+    .home_main .main_wrapper .quote em {font-size: 18px;}
+    .home_main .main_wrapper .qualities .qual_individual,
+    .home_main .main_wrapper .how_they_work .right_wrapper .work_individual {padding: 60px 30px;}
+    .about_us_body .org_founders .images_wrapper .left_img_wrppr{width: 170px;}
+    .about_us_body .org_founders .images_wrapper .img_individual{padding-left: 20px;}
+    .about_us_body .org_founders .images_wrapper .img_individual .found_dtl .found_name {font-size: 20px;margin-bottom: 0px;}
+    .about_us_body .org_founders .images_wrapper .img_individual .found_dtl .designat {font-size: 14px;}
+    .about_us_body .org_founders .images_wrapper .img_individual .found_dtl {bottom: 20px;left: 40px;}
+    .why_us .right_img img{width: 100%;}
+    .about_us_body .why_us.about::after {transform: translate(-40%, -50%);}
+    .about_us_body .why_us.about.vision::after {transform: translate(-60%, -50%);}
+}
+
+@media screen and (max-width: 991px){
+    .home_main .main_wrapper .banner .banner_container .row{width: 100%;margin: auto;}
+    .home_main .main_wrapper .banner .banner_container,
+    .home_main .main_wrapper .quote .inner_container{max-width: 720px;}
+    .home_main .main_wrapper .why_us img{width: 100%;}
+    .home_main .main_wrapper .qualities .qual_individual, 
+    .home_main .main_wrapper .how_they_work .right_wrapper .work_individual {padding: 60px 15px; width: 100%;}
+    .home_main .main_wrapper .qualities .qual_individual img{width: 60px;}
+    .home_main .main_wrapper .qualities .qual_individual h4{font-size: 18px;}
+    .home_main .main_wrapper .how_they_work .wrapper_row{flex-wrap: wrap;}
+    .home_main .main_wrapper .how_they_work .wrapper_row .right_wrapper{width: 100%; padding: 0; margin-top: 30px;}
+    .home_main .main_wrapper .how_they_work{background-size: contain;}
+    header.site_header .header_main .row .main_menu{position: fixed;left: -300px;top: 0;height: 100vh;width: 300px;padding: 0; display: flex; justify-content: center; background: #42353F;z-index: 999;align-items: center;}
+    header.site_header .header_main .main_menu ul{display: block !important;}
+    header.site_header .header_main .main_menu ul li{margin: 30px 0 !important;}
+    header.site_header .header_main .main_menu ul li a{color: #fff;}
+    header.site_header .header_main .row .main_menu.toggled{left: -1px; box-shadow: 0px 0px 10px rgb(0 0 0 / 80%);}
+    header.site_header .header_main .mobile_toggler {display: block;}
+    .about_us_body .why_us.about::after {height: 360px; width: 500px;}
+}
+
+@media screen and (max-width: 767px){
+    .home_main .main_wrapper .banner .banner_container, .home_main .main_wrapper .quote .inner_container{max-width: 540px;}
+    .home_main .main_wrapper .banner::before,
+    .home_main .main_wrapper .banner::after{opacity: 0.3;}
+    .home_main .main_wrapper .why_us,
+    .home_main .main_wrapper .qualities,
+    .home_main .main_wrapper .how_they_work{padding: 45px 0;}
+    .home_main .main_wrapper .why_us .right_img{margin-top: 20px;}
+    .home_main .main_wrapper .qualities .qual_individual{min-height: 320px !important; margin-bottom: 20px;}
+    .home_main .main_wrapper .how_they_work{background-position-y: top;}
+    .home_main .main_wrapper .how_they_work .wrapper_row .right_wrapper{margin-top: 50px;}
+    .home_main .main_wrapper .how_they_work .right_wrapper .work_individual{min-height: 250px; margin-bottom: 20px;}
+    .home_main .main_wrapper .qualities .col-md-4:last-child .qual_individual,
+    .home_main .main_wrapper .how_they_work .right_wrapper .col-md-4:last-child .work_individual{margin-bottom: 0;}
+    .home_main .main_wrapper .how_they_work{background-size: auto;}
+    footer.site_footer {padding-top: 40px;}
+    footer.site_footer .copyright {margin-top: 40px;}
+    .home_main .main_wrapper .quote h3 {font-size: 24px}
+    .home_main .main_wrapper .quote em {font-size: 16px;}
+    .home_main .main_wrapper .banner::before{background-position-x: left;}
+    .home_main .main_wrapper .banner::after {background-position-x: calc(100% + 50px);}
+    .about_us_body .why_us{padding: 50px 0;}
+    .about_us_body .why_us > .row{flex-direction: column-reverse;}
+    .about_us_body .org_founders{padding-bottom: 40px;}
+    .about_us_body .why_us .right_img, .org_founders .images_wrapper{margin-bottom: 30px;}
+    .about_us_body .why_us.about{margin-bottom: 0;}
+    .about_us_body .why_us.about.vision > .row{flex-direction: unset;}
+    .about_us_body .why_us.about::after {transform: translate(-40%, 0%)}
+    .about_us_body .why_us.about.vision::after {transform: translate(-60%, 0%);}
+}
+
+@media screen and (max-width: 575px){
+    .home_main .main_wrapper .quote .inner_container {max-width: calc(100% - 30px);}
+    .home_main .main_wrapper .quote .inner_container::after{bottom: 0;}
+    footer.site_footer .col-md-3:not(:last-child) .footer_col{margin-bottom: 25px;}
+    header.site_header .header_main .site_logo{margin-left: 0;}
+    header.site_header .header_main .mobile_toggler{margin-left: 0;}
+    header.site_header .header_main {position: relative;}
+    header.site_header .header_main .right_items input {width: 20px;}
+    header.site_header .header_main .row .searchbar{position: relative;}
+    header.site_header .header_main .right_items input {position: absolute; right: 0; top: -23px;}
+    header.site_header .header_main .right_items input:focus {width: 150px;}
+    header.site_header .header_top .wrapper{display: block !important;}
+    header.site_header .header_top .wrapper .email{margin-left: 0; margin-top: 10px;}
+    header.site_header .header_main .right_items{padding-right: 0;}
+    .home_main .main_wrapper .banner::before {background-position-x: -110px;}
+    .about_us_body .why_us.about::after {transform: none;left: -10px;width: calc(100% - 30px);}
+    .about_us_body .why_us.about.vision::after {transform: none;}
+    .about_us_body .why_us.about::after{top: 0;}
+    .about_us_body .org_founders .images_wrapper .img_individual {padding-left: 15px}
+    .contact_us_body .contact_info .cont_dtl {margin-bottom: 30px}
+}
+
+@media screen and (max-width: 360px){
+    header.site_header .header_main .right_items {
+        margin-left: auto;
+        position: absolute;
+        bottom: 15px;
+        right: 0;
+    }
+    header.site_header .header_main .mobile_toggler {
+        margin-left: auto;
+    }
+    header.site_header .header_main .right_items{padding-right: 10px;}
+    header.site_header .header_main {padding-bottom: 70px;}
+    header.site_header .header_main .row .main_menu{width: 220px;}
+}
