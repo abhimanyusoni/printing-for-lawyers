@@ -25,6 +25,7 @@
     .why_us .right_img img{width: 100%;}
     .about_us_body .why_us.about::after {transform: translate(-40%, -50%);}
     .about_us_body .why_us.about.vision::after {transform: translate(-60%, -50%);}
+    .home_banner_slider .slick-dots {padding-left: calc(((100% - 1320px) / 2) + 195px);}
 }
 
 @media screen and (max-width: 991px){
@@ -48,6 +49,7 @@
     .about_us_body .why_us.about::after {height: 360px; width: 500px;}
     .why_us .right_img .why_us_img {padding-right: 20px;padding-bottom: 20px;width: 100%;}
     .why_us .right_img .why_us_img::after {width: calc(100% - 20px);height: calc(100% - 20px);}
+    .home_banner_slider .slick-dots {padding-left: calc(((100% - 1320px) / 2) + 315px);}
 }
 
 @media screen and (max-width: 767px){
@@ -81,6 +83,7 @@
     .about_us_body .why_us.about.vision::after {transform: translate(-60%, 0%);}
     .home_main .main_wrapper .banner .banner_container .slick-track{width: 100% !important;}
     .home_main .main_wrapper .qualities{height: auto;}
+    .home_banner_slider .slick-dots {padding-left: calc(((100% - 1320px) / 2) + 405px);}
 }
 
 @media screen and (max-width: 575px){
@@ -103,6 +106,7 @@
     .about_us_body .why_us.about::after{top: 0;}
     .about_us_body .org_founders .images_wrapper .img_individual {padding-left: 15px}
     .contact_us_body .contact_info .cont_dtl {margin-bottom: 30px}
+    .home_banner_slider .slick-dots{padding-left: 10px;}
 }
 
 @media screen and (max-width: 360px){

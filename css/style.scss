@@ -170,28 +170,10 @@ header.site_header{
             background: #E0D7CE;
             position: relative;
             z-index: 99;
-
-            &::after{
-                content: '';
-                position: absolute;
-                width: 50%;
-                height: 100%;
-                left: 0;
-                top: 0;
-                background: url(../images/Group261.png) no-repeat center left;
-                z-index: -1;
-            }
-            &::before{
-                content: '';
-                position: absolute;
-                width: 50%;
-                height: 100%;
-                right: 0;
-                top: 0;
-                background: url(../images/Mockup-removebg-preview.png) no-repeat center right;
-                z-index: -1;
-                background-position-x: center;
-            }
+            background-image: url(../images/pexels-amina-filkins-5560551.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
 
             .banner_container{
                 max-width: 1040px;
@@ -376,6 +358,37 @@ header.site_header{
         }
     }
 }
+
+.home_banner_slider{
+    .slick-dots{
+        padding-inline-start: 0;
+        position: absolute;
+        bottom: 20px;
+        display: flex;
+        align-items: center;
+        padding-left: calc(((100% - 1320px) / 2) + 140px);
+
+        li{
+            button{
+                font-size: 0;
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                border: none;
+                background: #42353F;
+                margin-right: 15px;
+            }
+
+            &.slick-active{
+                button{
+                    background: transparent;
+                    border: 2px solid #42353F;
+                    margin-top: 6px;
+                }
+            }
+        }
+    }
+} 
 
 button.brown_btn{
     width: 180px;

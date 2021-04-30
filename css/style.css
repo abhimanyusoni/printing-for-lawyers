@@ -191,29 +191,10 @@ header.site_header .header_main .right_items .myaccount button {
   background: #E0D7CE;
   position: relative;
   z-index: 99;
-}
-
-.home_main .main_wrapper .banner::after {
-  content: '';
-  position: absolute;
-  width: 50%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background: url(../images/Group261.png) no-repeat center left;
-  z-index: -1;
-}
-
-.home_main .main_wrapper .banner::before {
-  content: '';
-  position: absolute;
-  width: 50%;
-  height: 100%;
-  right: 0;
-  top: 0;
-  background: url(../images/Mockup-removebg-preview.png) no-repeat center right;
-  z-index: -1;
-  background-position-x: center;
+  background-image: url(../images/pexels-amina-filkins-5560551.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .home_main .main_wrapper .banner .banner_container {
@@ -427,6 +408,36 @@ header.site_header .header_main .right_items .myaccount button {
   margin-bottom: 14px;
   font-size: 18px;
   font-weight: 700;
+}
+
+.home_banner_slider .slick-dots {
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+  position: absolute;
+  bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: calc(((100% - 1320px) / 2) + 140px);
+}
+
+.home_banner_slider .slick-dots li button {
+  font-size: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: none;
+  background: #42353F;
+  margin-right: 15px;
+}
+
+.home_banner_slider .slick-dots li.slick-active button {
+  background: transparent;
+  border: 2px solid #42353F;
+  margin-top: 6px;
 }
 
 button.brown_btn {
